@@ -1,0 +1,20 @@
+  module Aq {
+   int a = 0;
+   int a1_9d = 0;
+   
+    enum A {
+      a = 1,
+      b = 2
+    };
+   
+    struct A {
+      1 optional int a;
+      2 optional int a = 0;
+     };
+   
+    interface B {
+     int main(int a, out int b);
+     int haha(int a, out int b);
+   };
+ };
+
